@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "nodejs": "^0.0.0"
+    "http-server": "^0.12.3",
+    "nodejs": "^0.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "http-server -c-1 -p 8081"
   }
 }
